@@ -1,0 +1,26 @@
+body{
+    background-color: #363636 ;
+}
+
+header {
+    margin: 9px;
+  
+    background-image: url("./Assets/Logo\ Burger\ Garege.png"); 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  
+    color: #fff;
+    margin-top:25px ;
+  
+    display: flex;
+    
+    align-items: center;
+  
+    animation: entering 1.0s ease-in-out;
+  }
+
+  .transparente {
+    height: 250px;
+    width: 1px;
+  }
