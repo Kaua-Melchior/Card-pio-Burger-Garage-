@@ -201,7 +201,8 @@ body, aside {
 }
 
 .categoria{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Sedgwick Ave Display', cursive;
+  letter-spacing: 4px; /* Isso determina o espaçamento entre as letras */
 
   padding-left: 25px;
   padding-bottom: 30px;
