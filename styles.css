@@ -119,7 +119,7 @@ body, aside {
 /* ... (código anterior) ... */
 
 .category {
-  margin: 1.5%;
+  margin: 2.5%;
   margin-top: 40px; /* Adicionando espaço entre as categorias */
   background-color: #242424; /* Cor de fundo vermelha */
   padding: 10px; /* Adicionando um pouco de espaço interno */
@@ -201,20 +201,24 @@ body, aside {
 }
 
 .categoria{
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Permanent Marker', cursive;
 
   padding-left: 25px;
   padding-bottom: 30px;
-  font-size: 250%;
+  font-size: 270%;
   font-weight: 200;
 }
 
 .price p{
+  text-shadow: -6px -6px 0 white, 6px -6px 0 white, -6px 6px 0 white, 6px 6px 0 white;
+  color: rgb(255, 0, 0);
   background-color: rgba(0, 0, 0, 0.7);
   padding: 15px;
   border-radius: 10px;
   font-size: 500%;
 }
+
+
 p, h2{
   color: #ffffff;
 }
