@@ -112,19 +112,24 @@ body, aside {
 }
 
 /* Adicione este trecho para adicionar padding na div que envolve todo o conteúdo */
-.container {
-  padding: 20px;
-}
+/* ... (seu código anterior) ... */
 
-/* ... (código anterior) ... */
+.container {
+  background-color: #363636; /* Tom de cinza mais claro para o fundo do container */
+  padding: 20px;
+  margin: 0 auto; /* Centraliza o conteúdo no meio da tela */
+  max-width: 1200px; /* Define a largura máxima do container */
+}
 
 .category {
   margin: 2.5%;
-  margin-top: 40px; /* Adicionando espaço entre as categorias */
-  background-color: #242424; /* Cor de fundo vermelha */
+  background-color: #fff; /* Cor de fundo branca para as categorias */
   padding: 10px; /* Adicionando um pouco de espaço interno */
   border-radius: 5px; /* Adicionando bordas arredondadas */
 }
+
+/* ... (seu código posterior) ... */
+
 
 .category h2 {
   font-size: 1.5em;
@@ -201,10 +206,12 @@ body, aside {
 }
 
 .categoria{
-  font-family: 'Sedgwick Ave Display', cursive;
-  letter-spacing: 4px; /* Isso determina o espaçamento entre as letras */
+  font-family: 'Courgette', cursive;
+  letter-spacing: 2px; /* Isso determina o espaçamento entre as letras */
+  font-weight: 300;
+  transform: scaleY(1.35); /* Ajuste o valor conforme necessário para a distorção desejada */
 
-  padding-left: 25px;
+  text-align: center;
   padding-bottom: 30px;
   font-size: 270%;
   font-weight: 200;
@@ -217,6 +224,19 @@ body, aside {
   padding: 15px;
   border-radius: 10px;
   font-size: 500%;
+}
+
+.category {
+  margin: 2.5%;
+  margin-top: 40px; /* Adicionando espaço entre as categorias */
+  background-color: #242424; /* Cor de fundo vermelha */
+  padding: 10px; /* Adicionando um pouco de espaço interno */
+  border-radius: 5px; /* Adicionando bordas arredondadas */
+  margin-bottom: 20px; /* Adicione essa linha para adicionar espaço na parte inferior da categoria */
+}
+
+.description{
+  font-size: 28px;
 }
 
 
